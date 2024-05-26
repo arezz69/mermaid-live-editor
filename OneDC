@@ -1,0 +1,37 @@
+
+gantt
+    title Warehouse Internalization Project
+    dateFormat  YYYY-MM
+    axisFormat  %b %Y
+    
+    section Stage 1
+    Kick off                                 :milestone, m1, 2024-05-13, 0d
+    Data requirements/assumption alignment   :2024-05-14, 10d
+    Data sharing from Antonio & Stephan      :2024-05-14, 2024-06-21
+    Other workstream's feedback/concerns     :2024-05-01, 2024-07-31
+    
+    section Stage 2 
+    Network modelling initial options        :2024-07-01, 2024-07-15
+    Network model review and fine-tuning     :2024-07-16, 2024-07-31
+    Network model finalization & sign off    :2024-08-01, 2024-08-31
+    
+    section Stage 3
+    Comparison with 3PL quote                :2024-08-01, 2024-08-31
+    Decision by SteerCo                      :milestone, m2, 2024-08-31, 0d
+    Business Case/IC document preparation    :2024-09-01, 2024-09-30
+    IC submission                            :2024-09-30, 0d
+    IC approval                              :milestone, m3, 2024-10-01, 2024-11-30
+    
+    section Stage 4
+    Implementation kick off                  :2024-11-01, 0d
+    DC search/tender                         :2024-12-01, 2025-03-31
+    DC contract                              :milestone, m4, 2025-04-01, 2025-05-31
+    
+    section Stage 5
+    DC fit-out, equipment, etc.              :2025-06-01, 2025-12-31
+    Manpower resource                        :milestone, m5, 2025-11-01, 2026-03-31
+    
+    section Stage 6
+    Inventory transition                     :2026-01-01, 2026-03-31
+    New DC go-live                           :milestone, m6, 2026-04-01, 0d
+    Stabilization                            :2026-04-01, 2026-06-30
